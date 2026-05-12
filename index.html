@@ -17,26 +17,25 @@
    }
 
   .topnav a {
-    float: left;
-    color: #000080;
-    padding: 14px 16px;
-    text-decoration: none;
     font-size: 17px;
-    align-items: flex-end;
-   }
-
+              display: flex;
+              flex-direction: row;
+              flex: 1; /* Use the rest of the available space of the <header> */
+              justify-content: right; /* Keep the links in the center of this element  */
+              align-items: end;  /* Puts the links vertically in the center of the <nav> */
+              padding: 0 1rem 0.5rem 1rem;
+              text-decoration: none; /* Take away the default link styling  */
+           }
+   
    .topnav a:hover {
-    background-color:white;
     text-decoration: underline;
    }
 
    .topnav a:active {
-    background-color:white;
     text-decoration: underline;
    }
 
   .topnav a:visited {
-   background-color:white;
    color: skyblue;
   }
   
@@ -68,21 +67,6 @@ header > img{
               width: auto; /* Keep the height/width ratio of source image  */
            }
 
-nav{
-              display: flex;
-              flex-direction: row;
-              flex: 1; /* Use the rest of the available space of the <header> */
-              justify-content: right; /* Keep the links in the center of this element  */
-              align-items: end;  /* Puts the links vertically in the center of the <nav> */
-         }
-
-           nav a{
-              padding: 0 1rem 0.5rem 1rem;
-              text-decoration: none; /* Take away the default link styling  */
-              color: black;
-           }
-
-
 main {
   margin: 0 auto;
 }
@@ -96,8 +80,8 @@ main {
   <header>
      <img class="logo" src="logo.png" alt="My Image">
  
-    <nav class="navbar">
-       <a href="./index.html" >Home_banner</a>
+    <nav class="topnav">
+       <a href="./index.html" >Homer</a>
        <a href="./services.html">Services</a>
        <a href="./noodle.html">Noodle</a>
        <a href="./contact.html">Contact</a>
