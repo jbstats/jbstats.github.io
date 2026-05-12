@@ -1,16 +1,8 @@
 body {
-/*	font-family: "Segoe UI", Roboto, sans-serif;
-  	margin: 0;
-  	background: #f4f7fb;*
-  	color: #253238;
-*/
-
   	  		margin: 0;
     		background-color:white;
     		color: midnightblue;
     		font-family: "Calibri";
-    	/*	background-repeat: no-repeat;
-    		position: relative;*/
 }
 
 header{
@@ -52,16 +44,9 @@ nav a:visited {
     text-decoration: none;
 }
 
-/*
-  img-fit {
-     height: 40%;
-     width: 60%;
-        }
-
 main {
         margin: 0 auto;
 }
-*/
 
 footer {
            color: #000080;
@@ -71,12 +56,4 @@ footer {
   text-align: center;
   background: #e8edf4;
   font-size: 0.9rem;
-
-/*
-            width: 100%;
-            position: absolute;
-            bottom: 0px;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 17px;*/
 }
