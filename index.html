@@ -1,110 +1,17 @@
-<html>
-  <title>
-    StatNoodle Ltd
-  </title>
+<!DOCTYPE html>
+<html lang="en">
+
+<title>StatNoodle Ltd</title>
   
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
- <style>
-   body {
-    margin: 0;
-    background-color:white;
-    color: midnightblue;
-    font-family: "Calibri";
-    background-repeat: no-repeat;
-    position: relative;
-   }
-
-  .topnav a {
-    font-size: 17px;
-              float: left
-              justify-content: right; /* Keep the links in the center of this element  */
-              align-items: flex-end;  /* Puts the links vertically in the center of the <nav> */
-              padding: 0 1rem 0.5rem 1rem;
-              text-decoration: none; /* Take away the default link styling  */
-           }
-   
-   .topnav a:hover {
-    text-decoration: underline;
-   }
-
-   .topnav a:active {
-    text-decoration: underline;
-   }
-/*
-  .topnav a:visited {
-   color: skyblue;
-  }
-  */
-
-   /* css nav*/
-nav{
-              display: flex;
-              flex-direction: row;
-              flex: 1; /* Use the rest of the available space of the <header> */
-              justify-content: right; /* Keep the links in the center of this element  */
-              align-items: end;  /* Puts the links vertically in the center of the <nav> */
-         }
-
-           nav a{
-              padding: 0 1rem 0.5rem 1rem;
-              text-decoration: none; /* Take away the default link styling  */
-              font-size: 17px;
-           }
-
-      nav a:hover {
-    text-decoration: underline;
-   }
-
-   nav a:active {
-    text-decoration: underline;
-   }
-
-    nav a:visited {
-    text-decoration: none;
-   }
-   /* end of css nav*/
-   
- .base a {
-   color: #000080;
-   width: 100%;
-   position: absolute;
-   bottom: 0px;
-   text-align: center;
-   padding: 14px 16px;
-   text-decoration: none;
-   font-size: 17px;
-  }  
-
- .my-list li {
-   list-style: none
- }
-
-
-header{
-              display: flex;
-              flex-direction: row; /* This is default so you can omit it but it's good to be explicit  */
-              justify-content: flex-start; /* This will snap all content of header to the left due to 'flex-direction: row'  */
-              background-color: white;
-                     }
-           
-header > img{
-              height: 90px; /* Set the height of your image  */
-              width: auto; /* Keep the height/width ratio of source image  */
-           }
-
-main {
-  margin: 0 auto;
-}
-
-
-   
- </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css" type="text/css">
 </head>
 
 <body>
   <header>
+/*      <header class="header">*/
+
      <img class="logo" src="logo.png" alt="My Image">
  
     <nav class="navbar">
@@ -121,13 +28,9 @@ main {
       </picture>
   </main>
   
-   <div class="banner"></div>
- 
   <footer>
-   <div class="base">
-    <br><br><br><br><br>
+/*    <br><br><br><br><br>*/
     <a>StatNoodle Ltd, Berkshire, England</a>
-   </div>
   </footer>
 
  </body>
