@@ -18,11 +18,9 @@
 
   .topnav a {
     font-size: 17px;
-              display: flex;
-              flex-direction: row;
-              flex: 1; /* Use the rest of the available space of the <header> */
+              float: left
               justify-content: right; /* Keep the links in the center of this element  */
-              align-items: end;  /* Puts the links vertically in the center of the <nav> */
+              align-items: flex-end;  /* Puts the links vertically in the center of the <nav> */
               padding: 0 1rem 0.5rem 1rem;
               text-decoration: none; /* Take away the default link styling  */
            }
@@ -34,11 +32,12 @@
    .topnav a:active {
     text-decoration: underline;
    }
-
+/*
   .topnav a:visited {
    color: skyblue;
   }
-  
+  */
+   
  .base a {
    color: #000080;
    width: 100%;
@@ -81,7 +80,7 @@ main {
      <img class="logo" src="logo.png" alt="My Image">
  
     <nav class="topnav">
-       <a href="./index.html" >Homer</a>
+       <a href="./index.html" >Home_a</a>
        <a href="./services.html">Services</a>
        <a href="./noodle.html">Noodle</a>
        <a href="./contact.html">Contact</a>
