@@ -37,6 +37,22 @@
    color: skyblue;
   }
   */
+
+   /* css nav*/
+nav{
+              display: flex;
+              flex-direction: row;
+              flex: 1; /* Use the rest of the available space of the <header> */
+              justify-content: right; /* Keep the links in the center of this element  */
+              align-items: end;  /* Puts the links vertically in the center of the <nav> */
+         }
+
+           nav a{
+              padding: 0 1rem 0.5rem 1rem;
+              text-decoration: none; /* Take away the default link styling  */
+              font-size: 17px;
+           }
+   /* end of css nav*/
    
  .base a {
    color: #000080;
@@ -79,8 +95,8 @@ main {
   <header>
      <img class="logo" src="logo.png" alt="My Image">
  
-    <nav class="topnav">
-       <a href="./index.html" >Home_a</a>
+    <nav class="navbar">
+       <a href="./index.html" >Home_css</a>
        <a href="./services.html">Services</a>
        <a href="./noodle.html">Noodle</a>
        <a href="./contact.html">Contact</a>
