@@ -1,0 +1,50 @@
+
+body {
+  font-family: "Segoe UI", Roboto, sans-serif;
+  margin: 0;
+  background: #f4f7fb;
+  color: #253238;
+}
+header{
+              display: flex;
+              flex-direction: row; /* This is default so you can omit it but it's good to be explicit  */
+              justify-content: flex-start; /* This will snap all content of header to the left due to 'flex-direction: row'  */
+              background-color: white;
+                     }
+           
+header > img{
+              height: 90px; /* Set the height of your image  */
+              width: auto; /* Keep the height/width ratio of source image  */
+           }
+
+nav{
+              display: flex;
+              flex-direction: row;
+              flex: 1; /* Use the rest of the available space of the <header> */
+              justify-content: right; /* Keep the links in the center of this element  */
+              align-items: end;  /* Puts the links vertically in the center of the <nav> */
+         }
+
+           nav a{
+              padding: 0 1rem 0.5rem 1rem;
+              text-decoration: none; /* Take away the default link styling  */
+              color: black;
+           }
+
+  img-fit {
+     height: 40%;
+     width: 60%;
+        }
+
+main {
+  margin: 0 auto;
+}
+
+
+footer {
+  padding: 24px;
+  text-align: center;
+  background: #e8edf4;
+  font-size: 0.9rem;
+}
+
