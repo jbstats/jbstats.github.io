@@ -9,8 +9,8 @@ body {
     		background-color:white;
     		color: midnightblue;
     		font-family: "Calibri";
-    		background-repeat: no-repeat;
-    		position: relative;
+    	/*	background-repeat: no-repeat;
+    		position: relative;*/
 }
 
 header{
@@ -20,12 +20,10 @@ header{
             background-color: white;
 }
 
-/*           
 header > img{
               height: 90px; /* Set the height of your image  */
               width: auto; /* Keep the height/width ratio of source image  */
-           }
-*/
+}
 
 nav{
             display: flex;
@@ -66,19 +64,19 @@ main {
 */
 
 footer {
-/*
+           color: #000080;
+            text-align: center;
+ 
   padding: 24px;
   text-align: center;
   background: #e8edf4;
   font-size: 0.9rem;
-*/
 
-            color: #000080;
+/*
             width: 100%;
             position: absolute;
             bottom: 0px;
-            text-align: center;
             padding: 14px 16px;
             text-decoration: none;
-            font-size: 17px;
+            font-size: 17px;*/
 }
