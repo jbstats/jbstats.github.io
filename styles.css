@@ -55,3 +55,65 @@ footer {
   			text-align: center;
   font-size: 0.9rem;
 }
+
+
+  img-fit {
+     height: 40%;
+     width: 60%;
+        }
+
+
+ul {
+  list-style-position: inside;
+  background: white;
+}
+
+ 
+ li.but1{
+ list-style: none;
+ background: url("bullet1.png") no-repeat 0 0.1em;
+ background-size: 1em;
+ padding-left: 1.5em;
+ font-size: 2rem;
+ color: brown;
+}
+ li.but2{
+ list-style: none;
+ background: url("bullet2.png") no-repeat 0 0.1em;
+ background-size: 1em;
+ padding-left: 1.5em;
+ font-size: 2rem;
+ color: purple;
+}
+ li.but3{
+ list-style: none;
+ background: url("bullet3.svg") no-repeat 0 0.1em;
+ background-size: 1em;
+ padding-left: 1.5em;
+ font-size: 2rem;
+ color: red;
+}
+ li.but4{
+ list-style: none;
+ background: url("bullet4.png") no-repeat 0 0.1em;
+ background-size: 1em;
+ padding-left: 1.5em;
+ font-size: 2rem;
+ color: green;
+}
+ li.but5{
+ list-style: none;
+ background: url("bullet5.png") no-repeat 0 0.1em;
+ background-size: 1em;
+ padding-left: 1.5em;
+ font-size: 2rem;
+ color: blue;
+}
+ li.but6{
+ list-style: none;
+ background: url("bullet6.png") no-repeat 0 0.1em;
+ background-size: 1em;
+ padding-left: 1.5em;
+ font-size: 2rem;
+}
+
