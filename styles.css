@@ -117,3 +117,15 @@ ul {
  font-size: 2rem;
 }
 
+
+li a:hover {
+    text-decoration: underline;
+}
+
+li a:active {
+    text-decoration: underline;
+}
+
+li a:visited {
+    text-decoration: none;
+}
