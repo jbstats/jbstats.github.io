@@ -57,15 +57,16 @@ footer {
 }
 
 
-  img-fit {
+img-fit {
      height: 40%;
      width: 60%;
-        }
+}
 
 
 ul {
   list-style-position: inside;
   background: white;
+  text-decoration: none;
 }
 
  
@@ -74,7 +75,7 @@ ul {
  background: url("bullet1.png") no-repeat 0 0.1em;
  background-size: 1em;
  padding-left: 1.5em;
- font-size: 2rem;
+ font-size: 1.2rem;
  color: brown;
 }
  li.but2{
@@ -82,7 +83,7 @@ ul {
  background: url("bullet2.png") no-repeat 0 0.1em;
  background-size: 1em;
  padding-left: 1.5em;
- font-size: 2rem;
+ font-size: 1.2rem;
  color: purple;
 }
  li.but3{
@@ -90,7 +91,7 @@ ul {
  background: url("bullet3.svg") no-repeat 0 0.1em;
  background-size: 1em;
  padding-left: 1.5em;
- font-size: 2rem;
+ font-size: 1.2rem;
  color: red;
 }
  li.but4{
@@ -98,7 +99,7 @@ ul {
  background: url("bullet4.png") no-repeat 0 0.1em;
  background-size: 1em;
  padding-left: 1.5em;
- font-size: 2rem;
+ font-size: 1.2rem;
  color: green;
 }
  li.but5{
@@ -106,7 +107,7 @@ ul {
  background: url("bullet5.png") no-repeat 0 0.1em;
  background-size: 1em;
  padding-left: 1.5em;
- font-size: 2rem;
+ font-size: 1.2rem;
  color: blue;
 }
  li.but6{
@@ -114,18 +115,19 @@ ul {
  background: url("bullet6.png") no-repeat 0 0.1em;
  background-size: 1em;
  padding-left: 1.5em;
- font-size: 2rem;
+ font-size: 1.2rem;
 }
 
 
-li a:hover {
+a:view {
+    text-decoration: none;
+}
+a:hover {
     text-decoration: underline;
 }
-
-li a:active {
-    text-decoration: underline;
+a:active {
+    text-decoration: none;
 }
-
-li a:visited {
+a:visited {
     text-decoration: none;
 }
